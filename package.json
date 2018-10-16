@@ -1,0 +1,29 @@
+{
+  "name": "check-pull-request",
+  "version": "0.0.1",
+  "description": "Boilerplate for a simple Serverless GitHub Pull Request Check WebHook ",
+  "main": "check-pull-request.js",
+  "scripts": {
+    "test": "nyc --all ava",
+    "posttest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougmoscrop/check-pull-request-node"
+  },
+  "author": "Doug Moscrop <doug.moscrop@gmail.com>",
+  "homepage": "https://github.com/dougmoscrop/check-pull-request-node",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^15.13.1",
+    "@octokit/webhooks": "^5.0.2",
+    "aws-sdk": "^2.333.0",
+    "jsonwebtoken": "^8.3.0",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^5.7.0",
+    "nyc": "^13.1.0"
+  }
+}

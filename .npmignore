@@ -1,0 +1,10 @@
+test/
+coverage/
+docs/
+.nyc_output/
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.npmignore
+.travis.yml
