@@ -8,6 +8,8 @@ Using AWS Lambda you can make super-simple Pull Request Checks:
 check(opts, handler);
 ```
 
+### opts
+
 ```js
 const opts = {
   appName: 'My App',
@@ -32,6 +34,8 @@ getHeadContent(path) -- gets the file at HEAD
 getBaseContent(path) -- gets the file at the base
 */
 ```
+
+`handler` can return `false` to avoid providing a Status Check.
 
 ## Example
 
